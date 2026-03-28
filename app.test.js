@@ -1,9 +1,6 @@
 const assert = require('assert')
+const test = require('node:test')
 
-// Simple test — just checks that basic math works
-// In real apps you test your actual functions
-describe('App tests', () => {
-    it('should pass basic test', () => {
-        assert.equal(1 + 1, 2)
-    })
+test('should pass basic test', () => {
+    assert.equal(1 + 1, 2)
 })
