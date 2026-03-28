@@ -2,6 +2,7 @@
   "name": "k8s-nodeapp",
   "version": "1.0.0",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "node --test app.test.js"
   }
 }
